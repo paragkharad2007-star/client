@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-d
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import Dashboard from "./pages/Dashboard";
-import DashboardLayout from "./layouts/DashboardLayout";
+import DashboardLayout from "./layout/dashboardLayout";
 import { useAuth } from "./context/AuthContext";
 
 function ProtectedRoute({ children }) {
